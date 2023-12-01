@@ -15,7 +15,7 @@ class NuevaFamilia{
 
     String id = "";
     String apellido = "";
-    String niños = "";
+    String ninos = "";
     String mascotas = "";
 
     /**
@@ -45,10 +45,10 @@ class NuevaFamilia{
      * @return niños
      * @param NuevaFamilia Define a un nuevo objeto tipo Familia 
      */
-    public String getNiños(NuevaFamilia nuevafamilia){
+    public String getNinos(NuevaFamilia nuevafamilia){
         System.out.println("Niños: ");
-        niños = sn.nextLine();
-        return niños;
+        ninos = sn.nextLine();
+        return ninos;
     }
 
     /**
@@ -68,7 +68,7 @@ class NuevaFamilia{
      * @param NuevaFamilia Define a un nuevo objeto tipo Familia 
      */
     public List<String> Familia(NuevaFamilia nuevafamilia){
-        List<String> datosfam = Arrays.asList(id, apellido, niños, mascotas);        
+        List<String> datosfam = Arrays.asList(id, apellido, ninos, mascotas);        
         System.out.println("Datos Familia: " +datosfam);
         return datosfam;
     }

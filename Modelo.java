@@ -24,7 +24,7 @@ public class Modelo {
     public void nuevafam(Modelo modelo){
         nuevafamilia.getId(nuevafamilia);
         nuevafamilia.getApellido(nuevafamilia);
-        nuevafamilia.getNiños(nuevafamilia);
+        nuevafamilia.getNinos(nuevafamilia);
         nuevafamilia.getMascotas(nuevafamilia);
     }
     
